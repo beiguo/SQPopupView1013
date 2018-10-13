@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7B5B126217027E900E74277 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5B125217027E900E74277 /* AppDelegate.m */; };
+		C7B5B129217027E900E74277 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5B128217027E900E74277 /* ViewController.m */; };
+		C7B5B12C217027E900E74277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B5B12A217027E900E74277 /* Main.storyboard */; };
+		C7B5B12E217027EA00E74277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B5B12D217027EA00E74277 /* Assets.xcassets */; };
+		C7B5B131217027EA00E74277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B5B12F217027EA00E74277 /* LaunchScreen.storyboard */; };
+		C7B5B134217027EA00E74277 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5B133217027EA00E74277 /* main.m */; };
+		C7B5B13E217027EB00E74277 /* SQPopupViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5B13D217027EB00E74277 /* SQPopupViewTests.m */; };
+		C7B5B149217027EB00E74277 /* SQPopupViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5B148217027EB00E74277 /* SQPopupViewUITests.m */; };
+		C7B5B1612170286200E74277 /* SQPopupGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5B15A2170286200E74277 /* SQPopupGradientButton.m */; };
+		C7B5B1622170286200E74277 /* UIColor+SQToolColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5B15D2170286200E74277 /* UIColor+SQToolColor.m */; };
+		C7B5B1632170286200E74277 /* SQPopupGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5B1602170286200E74277 /* SQPopupGradientView.m */; };
+		C7B5B16C217028D400E74277 /* SQPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5B16B217028D400E74277 /* SQPopupView.m */; };
+		C7B5B17421703A4500E74277 /* SQPopupAlertV.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5B17321703A4500E74277 /* SQPopupAlertV.m */; };
+		C7B5B17621703A5400E74277 /* SQPopupAlertV.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B5B17521703A5400E74277 /* SQPopupAlertV.xib */; };
+		C7B5B17821704E6100E74277 /* SQPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B5B17721704E6100E74277 /* SQPopupView.xib */; };
+		C7B5B17C2170731E00E74277 /* NSString+SQPopupString.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5B17B2170731E00E74277 /* NSString+SQPopupString.m */; };
+		C7B5B1852170880800E74277 /* SQPopupTextInputV.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5B1842170880800E74277 /* SQPopupTextInputV.m */; };
+		C7B5B1872170881200E74277 /* SQPopupTextInputV.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B5B1862170881200E74277 /* SQPopupTextInputV.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7B5B13A217027EB00E74277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B5B119217027E900E74277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B5B120217027E900E74277;
+			remoteInfo = SQPopupView;
+		};
+		C7B5B145217027EB00E74277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B5B119217027E900E74277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B5B120217027E900E74277;
+			remoteInfo = SQPopupView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7B5B121217027E900E74277 /* SQPopupView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQPopupView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B5B124217027E900E74277 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7B5B125217027E900E74277 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7B5B127217027E900E74277 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7B5B128217027E900E74277 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7B5B12B217027E900E74277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7B5B12D217027EA00E74277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7B5B130217027EA00E74277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7B5B132217027EA00E74277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B5B133217027EA00E74277 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7B5B139217027EB00E74277 /* SQPopupViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQPopupViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B5B13D217027EB00E74277 /* SQPopupViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQPopupViewTests.m; sourceTree = "<group>"; };
+		C7B5B13F217027EB00E74277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B5B144217027EB00E74277 /* SQPopupViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQPopupViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B5B148217027EB00E74277 /* SQPopupViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQPopupViewUITests.m; sourceTree = "<group>"; };
+		C7B5B14A217027EB00E74277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B5B1592170286200E74277 /* SQPopupGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPopupGradientButton.h; sourceTree = "<group>"; };
+		C7B5B15A2170286200E74277 /* SQPopupGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPopupGradientButton.m; sourceTree = "<group>"; };
+		C7B5B15C2170286200E74277 /* UIColor+SQToolColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SQToolColor.h"; sourceTree = "<group>"; };
+		C7B5B15D2170286200E74277 /* UIColor+SQToolColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SQToolColor.m"; sourceTree = "<group>"; };
+		C7B5B15F2170286200E74277 /* SQPopupGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPopupGradientView.h; sourceTree = "<group>"; };
+		C7B5B1602170286200E74277 /* SQPopupGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPopupGradientView.m; sourceTree = "<group>"; };
+		C7B5B16A217028D400E74277 /* SQPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQPopupView.h; sourceTree = "<group>"; };
+		C7B5B16B217028D400E74277 /* SQPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQPopupView.m; sourceTree = "<group>"; };
+		C7B5B17221703A4500E74277 /* SQPopupAlertV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQPopupAlertV.h; sourceTree = "<group>"; };
+		C7B5B17321703A4500E74277 /* SQPopupAlertV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQPopupAlertV.m; sourceTree = "<group>"; };
+		C7B5B17521703A5400E74277 /* SQPopupAlertV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SQPopupAlertV.xib; sourceTree = "<group>"; };
+		C7B5B17721704E6100E74277 /* SQPopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPopupView.xib; sourceTree = "<group>"; };
+		C7B5B17A2170731E00E74277 /* NSString+SQPopupString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SQPopupString.h"; sourceTree = "<group>"; };
+		C7B5B17B2170731E00E74277 /* NSString+SQPopupString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQPopupString.m"; sourceTree = "<group>"; };
+		C7B5B1832170880800E74277 /* SQPopupTextInputV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQPopupTextInputV.h; sourceTree = "<group>"; };
+		C7B5B1842170880800E74277 /* SQPopupTextInputV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQPopupTextInputV.m; sourceTree = "<group>"; };
+		C7B5B1862170881200E74277 /* SQPopupTextInputV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SQPopupTextInputV.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7B5B11E217027E900E74277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B5B136217027EB00E74277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B5B141217027EB00E74277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7B5B118217027E900E74277 = {
+			isa = PBXGroup;
+			children = (
+				C7B5B123217027E900E74277 /* SQPopupView */,
+				C7B5B13C217027EB00E74277 /* SQPopupViewTests */,
+				C7B5B147217027EB00E74277 /* SQPopupViewUITests */,
+				C7B5B122217027E900E74277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7B5B122217027E900E74277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5B121217027E900E74277 /* SQPopupView.app */,
+				C7B5B139217027EB00E74277 /* SQPopupViewTests.xctest */,
+				C7B5B144217027EB00E74277 /* SQPopupViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7B5B123217027E900E74277 /* SQPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5B124217027E900E74277 /* AppDelegate.h */,
+				C7B5B125217027E900E74277 /* AppDelegate.m */,
+				C7B5B127217027E900E74277 /* ViewController.h */,
+				C7B5B128217027E900E74277 /* ViewController.m */,
+				C7B5B156217027FE00E74277 /* SQPopupViewC */,
+				C7B5B12A217027E900E74277 /* Main.storyboard */,
+				C7B5B12D217027EA00E74277 /* Assets.xcassets */,
+				C7B5B12F217027EA00E74277 /* LaunchScreen.storyboard */,
+				C7B5B132217027EA00E74277 /* Info.plist */,
+				C7B5B133217027EA00E74277 /* main.m */,
+			);
+			path = SQPopupView;
+			sourceTree = "<group>";
+		};
+		C7B5B13C217027EB00E74277 /* SQPopupViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5B13D217027EB00E74277 /* SQPopupViewTests.m */,
+				C7B5B13F217027EB00E74277 /* Info.plist */,
+			);
+			path = SQPopupViewTests;
+			sourceTree = "<group>";
+		};
+		C7B5B147217027EB00E74277 /* SQPopupViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5B148217027EB00E74277 /* SQPopupViewUITests.m */,
+				C7B5B14A217027EB00E74277 /* Info.plist */,
+			);
+			path = SQPopupViewUITests;
+			sourceTree = "<group>";
+		};
+		C7B5B156217027FE00E74277 /* SQPopupViewC */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5B1642170287E00E74277 /* ViewC */,
+				C7B5B1572170283500E74277 /* SQPopupViewCTool */,
+			);
+			path = SQPopupViewC;
+			sourceTree = "<group>";
+		};
+		C7B5B1572170283500E74277 /* SQPopupViewCTool */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5B179217072F600E74277 /* String */,
+				C7B5B1582170286200E74277 /* Button */,
+				C7B5B15B2170286200E74277 /* Color */,
+				C7B5B15E2170286200E74277 /* View */,
+			);
+			path = SQPopupViewCTool;
+			sourceTree = "<group>";
+		};
+		C7B5B1582170286200E74277 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5B1592170286200E74277 /* SQPopupGradientButton.h */,
+				C7B5B15A2170286200E74277 /* SQPopupGradientButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		C7B5B15B2170286200E74277 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5B15C2170286200E74277 /* UIColor+SQToolColor.h */,
+				C7B5B15D2170286200E74277 /* UIColor+SQToolColor.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		C7B5B15E2170286200E74277 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5B15F2170286200E74277 /* SQPopupGradientView.h */,
+				C7B5B1602170286200E74277 /* SQPopupGradientView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7B5B1642170287E00E74277 /* ViewC */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5B16A217028D400E74277 /* SQPopupView.h */,
+				C7B5B16B217028D400E74277 /* SQPopupView.m */,
+				C7B5B17721704E6100E74277 /* SQPopupView.xib */,
+				C7B5B17221703A4500E74277 /* SQPopupAlertV.h */,
+				C7B5B17321703A4500E74277 /* SQPopupAlertV.m */,
+				C7B5B17521703A5400E74277 /* SQPopupAlertV.xib */,
+				C7B5B1832170880800E74277 /* SQPopupTextInputV.h */,
+				C7B5B1842170880800E74277 /* SQPopupTextInputV.m */,
+				C7B5B1862170881200E74277 /* SQPopupTextInputV.xib */,
+			);
+			path = ViewC;
+			sourceTree = "<group>";
+		};
+		C7B5B179217072F600E74277 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5B17A2170731E00E74277 /* NSString+SQPopupString.h */,
+				C7B5B17B2170731E00E74277 /* NSString+SQPopupString.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7B5B120217027E900E74277 /* SQPopupView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B5B14D217027EB00E74277 /* Build configuration list for PBXNativeTarget "SQPopupView" */;
+			buildPhases = (
+				C7B5B11D217027E900E74277 /* Sources */,
+				C7B5B11E217027E900E74277 /* Frameworks */,
+				C7B5B11F217027E900E74277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQPopupView;
+			productName = SQPopupView;
+			productReference = C7B5B121217027E900E74277 /* SQPopupView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7B5B138217027EB00E74277 /* SQPopupViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B5B150217027EB00E74277 /* Build configuration list for PBXNativeTarget "SQPopupViewTests" */;
+			buildPhases = (
+				C7B5B135217027EB00E74277 /* Sources */,
+				C7B5B136217027EB00E74277 /* Frameworks */,
+				C7B5B137217027EB00E74277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B5B13B217027EB00E74277 /* PBXTargetDependency */,
+			);
+			name = SQPopupViewTests;
+			productName = SQPopupViewTests;
+			productReference = C7B5B139217027EB00E74277 /* SQPopupViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7B5B143217027EB00E74277 /* SQPopupViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B5B153217027EB00E74277 /* Build configuration list for PBXNativeTarget "SQPopupViewUITests" */;
+			buildPhases = (
+				C7B5B140217027EB00E74277 /* Sources */,
+				C7B5B141217027EB00E74277 /* Frameworks */,
+				C7B5B142217027EB00E74277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B5B146217027EB00E74277 /* PBXTargetDependency */,
+			);
+			name = SQPopupViewUITests;
+			productName = SQPopupViewUITests;
+			productReference = C7B5B144217027EB00E74277 /* SQPopupViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7B5B119217027E900E74277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = DOFAR;
+				TargetAttributes = {
+					C7B5B120217027E900E74277 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C7B5B138217027EB00E74277 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C7B5B120217027E900E74277;
+					};
+					C7B5B143217027EB00E74277 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C7B5B120217027E900E74277;
+					};
+				};
+			};
+			buildConfigurationList = C7B5B11C217027E900E74277 /* Build configuration list for PBXProject "SQPopupView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7B5B118217027E900E74277;
+			productRefGroup = C7B5B122217027E900E74277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7B5B120217027E900E74277 /* SQPopupView */,
+				C7B5B138217027EB00E74277 /* SQPopupViewTests */,
+				C7B5B143217027EB00E74277 /* SQPopupViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7B5B11F217027E900E74277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B5B17621703A5400E74277 /* SQPopupAlertV.xib in Resources */,
+				C7B5B1872170881200E74277 /* SQPopupTextInputV.xib in Resources */,
+				C7B5B17821704E6100E74277 /* SQPopupView.xib in Resources */,
+				C7B5B131217027EA00E74277 /* LaunchScreen.storyboard in Resources */,
+				C7B5B12E217027EA00E74277 /* Assets.xcassets in Resources */,
+				C7B5B12C217027E900E74277 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B5B137217027EB00E74277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B5B142217027EB00E74277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7B5B11D217027E900E74277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B5B1612170286200E74277 /* SQPopupGradientButton.m in Sources */,
+				C7B5B129217027E900E74277 /* ViewController.m in Sources */,
+				C7B5B17C2170731E00E74277 /* NSString+SQPopupString.m in Sources */,
+				C7B5B16C217028D400E74277 /* SQPopupView.m in Sources */,
+				C7B5B1622170286200E74277 /* UIColor+SQToolColor.m in Sources */,
+				C7B5B1852170880800E74277 /* SQPopupTextInputV.m in Sources */,
+				C7B5B17421703A4500E74277 /* SQPopupAlertV.m in Sources */,
+				C7B5B1632170286200E74277 /* SQPopupGradientView.m in Sources */,
+				C7B5B134217027EA00E74277 /* main.m in Sources */,
+				C7B5B126217027E900E74277 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B5B135217027EB00E74277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B5B13E217027EB00E74277 /* SQPopupViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B5B140217027EB00E74277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B5B149217027EB00E74277 /* SQPopupViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7B5B13B217027EB00E74277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B5B120217027E900E74277 /* SQPopupView */;
+			targetProxy = C7B5B13A217027EB00E74277 /* PBXContainerItemProxy */;
+		};
+		C7B5B146217027EB00E74277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B5B120217027E900E74277 /* SQPopupView */;
+			targetProxy = C7B5B145217027EB00E74277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7B5B12A217027E900E74277 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B5B12B217027E900E74277 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7B5B12F217027EA00E74277 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B5B130217027EA00E74277 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7B5B14B217027EB00E74277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7B5B14C217027EB00E74277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7B5B14E217027EB00E74277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQPopupView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SQPopupView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7B5B14F217027EB00E74277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQPopupView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SQPopupView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7B5B151217027EB00E74277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQPopupViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SQPopupViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQPopupView.app/SQPopupView";
+			};
+			name = Debug;
+		};
+		C7B5B152217027EB00E74277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQPopupViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SQPopupViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQPopupView.app/SQPopupView";
+			};
+			name = Release;
+		};
+		C7B5B154217027EB00E74277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQPopupViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SQPopupViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQPopupView;
+			};
+			name = Debug;
+		};
+		C7B5B155217027EB00E74277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SQPopupViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SQPopupViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQPopupView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7B5B11C217027E900E74277 /* Build configuration list for PBXProject "SQPopupView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B5B14B217027EB00E74277 /* Debug */,
+				C7B5B14C217027EB00E74277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B5B14D217027EB00E74277 /* Build configuration list for PBXNativeTarget "SQPopupView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B5B14E217027EB00E74277 /* Debug */,
+				C7B5B14F217027EB00E74277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B5B150217027EB00E74277 /* Build configuration list for PBXNativeTarget "SQPopupViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B5B151217027EB00E74277 /* Debug */,
+				C7B5B152217027EB00E74277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B5B153217027EB00E74277 /* Build configuration list for PBXNativeTarget "SQPopupViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B5B154217027EB00E74277 /* Debug */,
+				C7B5B155217027EB00E74277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7B5B119217027E900E74277 /* Project object */;
+}

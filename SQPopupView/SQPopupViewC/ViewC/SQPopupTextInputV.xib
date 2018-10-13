@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SQPopupTextInputV"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="C6q-RA-3RC" customClass="SQPopupTextInputV">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="453"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="签到" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdl-LZ-m2c">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="50"/>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="If8-XO-pA7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Khr-5A-Syw">
+                    <rect key="frame" x="107.5" y="60" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="woe-00-KFr"/>
+                        <constraint firstAttribute="width" constant="55" id="xKD-x8-VHQ"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Phj-Rw-zHa" customClass="SQPopupGradientButton">
+                    <rect key="frame" x="25" y="229" width="220" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="9rj-bO-WAE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="签到">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="onclickOtherButton1:" destination="C6q-RA-3RC" eventType="touchUpInside" id="PDB-cS-UXo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSr-MI-zfl" customClass="SQPopupGradientButton">
+                    <rect key="frame" x="25" y="277" width="220" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="ekN-GU-Eix"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="签到">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="onclickOtherButton2:" destination="C6q-RA-3RC" eventType="touchUpInside" id="76z-aU-Rwu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAf-88-24U">
+                    <rect key="frame" x="25" y="325" width="220" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="w7s-vL-5Wn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="取消"/>
+                    <connections>
+                        <action selector="onclickCancleButton:" destination="C6q-RA-3RC" eventType="touchUpInside" id="Aez-AX-Guo"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PYL-zS-lsd">
+                    <rect key="frame" x="14" y="123" width="242" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="i0V-yt-xTS"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E4g-T5-6bj">
+                    <rect key="frame" x="15" y="181" width="241" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="rc5-Cq-DeA"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cdl-LZ-m2c" firstAttribute="trailing" secondItem="FUw-eK-4uu" secondAttribute="trailing" id="4x4-5X-d5y"/>
+                <constraint firstItem="FUw-eK-4uu" firstAttribute="trailing" secondItem="PYL-zS-lsd" secondAttribute="trailing" constant="14" id="6oK-vP-IND"/>
+                <constraint firstItem="PYL-zS-lsd" firstAttribute="centerX" secondItem="C6q-RA-3RC" secondAttribute="centerX" id="8dO-2b-u63"/>
+                <constraint firstItem="Khr-5A-Syw" firstAttribute="centerX" secondItem="C6q-RA-3RC" secondAttribute="centerX" id="Ep5-9U-Haa"/>
+                <constraint firstItem="E4g-T5-6bj" firstAttribute="centerX" secondItem="C6q-RA-3RC" secondAttribute="centerX" id="Qo1-jI-PRI"/>
+                <constraint firstItem="dAf-88-24U" firstAttribute="top" secondItem="vSr-MI-zfl" secondAttribute="bottom" constant="8" id="RR3-7a-MS6"/>
+                <constraint firstItem="E4g-T5-6bj" firstAttribute="top" secondItem="PYL-zS-lsd" secondAttribute="bottom" constant="8" id="U7p-Ij-Z9N"/>
+                <constraint firstItem="Khr-5A-Syw" firstAttribute="top" secondItem="cdl-LZ-m2c" secondAttribute="bottom" constant="10" id="Vio-31-Ggn"/>
+                <constraint firstItem="PYL-zS-lsd" firstAttribute="top" secondItem="Khr-5A-Syw" secondAttribute="bottom" constant="8" id="Z1l-6M-Tur"/>
+                <constraint firstItem="vSr-MI-zfl" firstAttribute="top" secondItem="Phj-Rw-zHa" secondAttribute="bottom" constant="8" id="ZUf-cU-DgH"/>
+                <constraint firstItem="dAf-88-24U" firstAttribute="leading" secondItem="FUw-eK-4uu" secondAttribute="leading" constant="25" id="clO-mn-hzX"/>
+                <constraint firstItem="dAf-88-24U" firstAttribute="centerX" secondItem="C6q-RA-3RC" secondAttribute="centerX" id="ded-AF-SFa"/>
+                <constraint firstItem="vSr-MI-zfl" firstAttribute="centerX" secondItem="C6q-RA-3RC" secondAttribute="centerX" id="dm1-ce-40C"/>
+                <constraint firstItem="cdl-LZ-m2c" firstAttribute="leading" secondItem="FUw-eK-4uu" secondAttribute="leading" id="fF9-1f-cYy"/>
+                <constraint firstItem="Phj-Rw-zHa" firstAttribute="centerX" secondItem="C6q-RA-3RC" secondAttribute="centerX" id="hJT-qA-XUB"/>
+                <constraint firstItem="Phj-Rw-zHa" firstAttribute="top" secondItem="E4g-T5-6bj" secondAttribute="bottom" constant="8" id="hd5-uL-iXk"/>
+                <constraint firstItem="FUw-eK-4uu" firstAttribute="trailing" secondItem="E4g-T5-6bj" secondAttribute="trailing" constant="14" id="iw1-6v-obZ"/>
+                <constraint firstItem="cdl-LZ-m2c" firstAttribute="top" secondItem="FUw-eK-4uu" secondAttribute="top" id="m0x-oP-qlv"/>
+                <constraint firstItem="FUw-eK-4uu" firstAttribute="trailing" secondItem="vSr-MI-zfl" secondAttribute="trailing" constant="25" id="nhY-TT-KJj"/>
+                <constraint firstItem="Phj-Rw-zHa" firstAttribute="leading" secondItem="FUw-eK-4uu" secondAttribute="leading" constant="25" id="yQV-4b-5gZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="FUw-eK-4uu"/>
+            <connections>
+                <outlet property="cancleButton" destination="dAf-88-24U" id="i4u-1x-rkP"/>
+                <outlet property="cancleHeight" destination="w7s-vL-5Wn" id="Cdr-fO-qWo"/>
+                <outlet property="cancleTopSpace" destination="RR3-7a-MS6" id="uQG-pd-bfH"/>
+                <outlet property="imessageTextViewTopSpace" destination="Z1l-6M-Tur" id="W4Y-Nq-q1r"/>
+                <outlet property="imgV" destination="Khr-5A-Syw" id="uSI-PR-Hzk"/>
+                <outlet property="imgVHeight" destination="woe-00-KFr" id="axc-Vl-7Lu"/>
+                <outlet property="imgVTopSpace" destination="Vio-31-Ggn" id="UD2-tR-Lfb"/>
+                <outlet property="inputTextField" destination="E4g-T5-6bj" id="duI-kr-z0J"/>
+                <outlet property="messageTextView" destination="PYL-zS-lsd" id="jKG-Gu-ivw"/>
+                <outlet property="messageTextViewHeight" destination="i0V-yt-xTS" id="N4N-sQ-nTi"/>
+                <outlet property="messageTextViewTrailingSafeArea" destination="6oK-vP-IND" id="9jz-56-sC4"/>
+                <outlet property="otherButton1" destination="Phj-Rw-zHa" id="yIx-Hf-8ZH"/>
+                <outlet property="otherButton1Height" destination="9rj-bO-WAE" id="K40-7Z-cHQ"/>
+                <outlet property="otherButton1TopSpace" destination="hd5-uL-iXk" id="I6j-Li-Bke"/>
+                <outlet property="otherButton2" destination="vSr-MI-zfl" id="hX0-aZ-seY"/>
+                <outlet property="otherButton2Height" destination="ekN-GU-Eix" id="gGZ-bB-yrp"/>
+                <outlet property="otherButton2TopSpace" destination="ZUf-cU-DgH" id="5Lz-4h-44w"/>
+                <outlet property="titleLable" destination="cdl-LZ-m2c" id="gA8-f0-gUk"/>
+            </connections>
+            <point key="canvasLocation" x="-18" y="63.5"/>
+        </view>
+    </objects>
+</document>

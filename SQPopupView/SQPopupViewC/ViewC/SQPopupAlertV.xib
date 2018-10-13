@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SQPopupAlertV"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="eaG-QK-88i" customClass="SQPopupAlertV">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="340"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="签到" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlT-yy-Bda">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="50"/>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="bs6-gB-xy9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9UX-yL-pJW">
+                    <rect key="frame" x="107.5" y="60" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="5xG-UF-jIW"/>
+                        <constraint firstAttribute="height" constant="55" id="AeS-cf-ZFf"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kin-AX-Th3" customClass="SQPopupGradientButton">
+                    <rect key="frame" x="25" y="181" width="220" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="PWQ-zh-Fnk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="签到">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="onclickOtherButton1:" destination="eaG-QK-88i" eventType="touchUpInside" id="mvZ-C5-y4z"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZ1-O6-zVW" customClass="SQPopupGradientButton">
+                    <rect key="frame" x="25" y="229" width="220" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="NI0-OU-gLn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="签到">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="onclickOtherButton2:" destination="eaG-QK-88i" eventType="touchUpInside" id="2s8-2M-Kde"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GYR-nj-ynZ">
+                    <rect key="frame" x="14" y="123" width="242" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="GQ3-cI-I9Y"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6N-Ej-5Px">
+                    <rect key="frame" x="25" y="277" width="220" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Q8I-8a-s7J"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="取消"/>
+                    <connections>
+                        <action selector="onclickCancleButton:" destination="eaG-QK-88i" eventType="touchUpInside" id="zrn-cW-8So"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9UX-yL-pJW" firstAttribute="centerX" secondItem="eaG-QK-88i" secondAttribute="centerX" id="2Vx-5n-Yqt"/>
+                <constraint firstItem="dlT-yy-Bda" firstAttribute="top" secondItem="ceP-pD-SQg" secondAttribute="top" id="7Zl-xT-F7N"/>
+                <constraint firstItem="JZ1-O6-zVW" firstAttribute="top" secondItem="Kin-AX-Th3" secondAttribute="bottom" constant="8" id="9zJ-Pl-sH1"/>
+                <constraint firstItem="dlT-yy-Bda" firstAttribute="trailing" secondItem="ceP-pD-SQg" secondAttribute="trailing" id="AjC-dx-NNA"/>
+                <constraint firstItem="dlT-yy-Bda" firstAttribute="leading" secondItem="ceP-pD-SQg" secondAttribute="leading" id="D4a-ey-e6X"/>
+                <constraint firstItem="Kin-AX-Th3" firstAttribute="top" secondItem="GYR-nj-ynZ" secondAttribute="bottom" constant="8" id="FwC-3v-RW4"/>
+                <constraint firstItem="9UX-yL-pJW" firstAttribute="top" secondItem="dlT-yy-Bda" secondAttribute="bottom" constant="10" id="JV1-5p-wjN"/>
+                <constraint firstItem="JZ1-O6-zVW" firstAttribute="centerX" secondItem="eaG-QK-88i" secondAttribute="centerX" id="LXQ-Vu-FWy"/>
+                <constraint firstItem="O6N-Ej-5Px" firstAttribute="centerX" secondItem="eaG-QK-88i" secondAttribute="centerX" id="SVk-nW-joR"/>
+                <constraint firstItem="GYR-nj-ynZ" firstAttribute="top" secondItem="9UX-yL-pJW" secondAttribute="bottom" constant="8" id="cCZ-Cq-kKJ"/>
+                <constraint firstItem="Kin-AX-Th3" firstAttribute="leading" secondItem="ceP-pD-SQg" secondAttribute="leading" constant="25" id="cio-cY-8jr"/>
+                <constraint firstItem="O6N-Ej-5Px" firstAttribute="leading" secondItem="ceP-pD-SQg" secondAttribute="leading" constant="25" id="dpj-fD-Nga"/>
+                <constraint firstItem="Kin-AX-Th3" firstAttribute="centerX" secondItem="eaG-QK-88i" secondAttribute="centerX" id="euo-ei-Qhw"/>
+                <constraint firstItem="GYR-nj-ynZ" firstAttribute="centerX" secondItem="eaG-QK-88i" secondAttribute="centerX" id="ffG-C3-PAD"/>
+                <constraint firstItem="O6N-Ej-5Px" firstAttribute="top" secondItem="JZ1-O6-zVW" secondAttribute="bottom" constant="8" id="kVJ-wR-usa"/>
+                <constraint firstItem="ceP-pD-SQg" firstAttribute="trailing" secondItem="GYR-nj-ynZ" secondAttribute="trailing" constant="14" id="mxE-8g-gGI"/>
+                <constraint firstItem="ceP-pD-SQg" firstAttribute="trailing" secondItem="JZ1-O6-zVW" secondAttribute="trailing" constant="25" id="zlV-b6-Vvg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="ceP-pD-SQg"/>
+            <connections>
+                <outlet property="cancleButton" destination="O6N-Ej-5Px" id="pZh-Pn-Qzl"/>
+                <outlet property="cancleHeight" destination="Q8I-8a-s7J" id="xYp-xM-l90"/>
+                <outlet property="cancleTopSpace" destination="kVJ-wR-usa" id="BP9-fg-WIl"/>
+                <outlet property="imessageTextViewTopSpace" destination="cCZ-Cq-kKJ" id="IX0-Nu-zQH"/>
+                <outlet property="imgV" destination="9UX-yL-pJW" id="qFH-Ui-cmn"/>
+                <outlet property="imgVHeight" destination="AeS-cf-ZFf" id="fwQ-ZV-hti"/>
+                <outlet property="imgVTopSpace" destination="JV1-5p-wjN" id="VaS-wX-3wa"/>
+                <outlet property="messageTextView" destination="GYR-nj-ynZ" id="DFK-aP-F1y"/>
+                <outlet property="messageTextViewHeight" destination="GQ3-cI-I9Y" id="Cbh-qv-8A0"/>
+                <outlet property="messageTextViewTrailingSafeArea" destination="mxE-8g-gGI" id="4k0-T9-yr6"/>
+                <outlet property="otherButton1" destination="Kin-AX-Th3" id="EUO-pG-4pd"/>
+                <outlet property="otherButton1Height" destination="PWQ-zh-Fnk" id="yuC-EJ-cAJ"/>
+                <outlet property="otherButton1TopSpace" destination="FwC-3v-RW4" id="WNe-m4-dHg"/>
+                <outlet property="otherButton2" destination="JZ1-O6-zVW" id="XOx-pF-iav"/>
+                <outlet property="otherButton2Height" destination="NI0-OU-gLn" id="Wc6-8U-zNd"/>
+                <outlet property="otherButton2TopSpace" destination="9zJ-Pl-sH1" id="vFY-xO-AI3"/>
+                <outlet property="titleLable" destination="dlT-yy-Bda" id="9um-3o-e2D"/>
+            </connections>
+            <point key="canvasLocation" x="-18" y="7"/>
+        </view>
+    </objects>
+</document>
